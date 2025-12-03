@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toán 6 - Kết nối tri thức</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#60A5FA', // Blue-400
+                        secondary: '#A78BFA', // Violet-400
+                        accent: '#FDBA74', // Orange-300
+                        'bg-light': '#F8FAFC', // Slate-50
+                        'text-dark': '#1E293B', // Slate-800
+                        'progress-fill': '#22C55E', // Green-500
+                        'progress-bg': '#E2E8F0', // Slate-200
+                        'chapter-not-started': '#CBD5E1', // Slate-300
+                        'chapter-in-progress': '#60A5FA', // Blue-400
+                        'chapter-completed': '#22C55E' // Green-500
+                    }
+                }
+            }
+        }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0"
+  }
+}
+</script>
+</head>
+<body class="bg-bg-light text-text-dark antialiased">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
